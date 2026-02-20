@@ -1,1 +1,127 @@
-# Fatigue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Study: Symphony</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f7;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #1f3a5f;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+        }
+
+        h2, h3 {
+            color: #1f3a5f;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .example {
+            background-color: #eef1f5;
+            padding: 12px;
+            border-left: 5px solid #1f3a5f;
+            margin: 15px 0;
+        }
+
+        .image-box {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .caption {
+            font-size: 14px;
+            color: #555;
+            margin-top: 6px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1f3a5f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Word “Fatigue”</h1>
+    <p>A Vocabulary and Meaning</p>
+</header>
+
+<section>
+
+    <div class="image-box">
+        <img src="data:image/jpeg;base64,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">
+        <div class="caption"></div>
+    </div>
+
+    <h2>Etymology</h2>
+    <p>
+        From Old French <strong>fatigue</strong>, from Latin fatigare meaning "to tire or weary".
+    </p>
+
+    <h2>Definition</h2>
+    <p>
+        A <strong>fatigue</strong> is a word means extreamly tired, either physically or mentally.
+    </p>
+
+    <h3>Denotation</h3>
+    <p>
+        In its literal sense, <strong>intensifies</strong> refers to:
+    </p>
+    <ul>
+        <li>Being very tired</li>
+        <li>Physical exhaustion</li>
+    </ul>
+
+    <div class="example">
+        <strong>Example (Denotation):</strong><br>
+        The players were fatigue after the long game.
+    </div>
+
+    <h3>Connotation</h3>
+    <p>
+        Beyond its literal meaning, <strong>fatigue</strong> often suggests:
+    </p>
+    <ul>
+        <li>Mental exhaustion</li>
+        <li>Emotional burnout</li>
+    </ul>
+
+    <div class="example">
+        <strong>Example (Connotation):</strong><br>
+        She felt mentally fatigue after weeks of strees.
+    </div>
+
+   </section>
+
+<footer>
+    <p>Group 1 Performance Task</p>
+</footer>
+
+</body>
+</html>
